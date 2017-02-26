@@ -88,7 +88,7 @@
 
 <!-- SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS -->
 
-<section>
+<section style="font-size: 0.7 em">
 	<p><code>xsl:template</code></p>
 	<p>The templates are rules that define how a particular part of the input XML document maps on to the result</p>
 	<p>consists of:
@@ -105,8 +105,8 @@
 xmlns:xsl="http://www.w3.org/1999/XSL/Transform"&gt;
 &lt;xsl:template match="catalog/cd"&gt;
 &lt;tr&gt;
-&lt;td><xsl:value-of select="title"/></td&gt;
-&lt;td><xsl:value-of select="artist"/></td&gt;
+&lt;td&gt;&lt;xsl:value-of select="title"/&gt;&lt;/td&gt;
+&lt;td&gt;&lt;xsl:value-of select="artist"/&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/xsl:template&gt;
 &lt;/xsl:stylesheet&gt;
