@@ -28,18 +28,62 @@
 		<!-- SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS -->
 
 				<section>
-					<h1>XPath</h1>
+					<h1>XSLT</h1>
 					<h2>introduction</h2>
 				</section>
+
+		<!-- SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS -->
+
 				<section>
-					<p><b>XPath</b> - XML Path Language</p>
+					<p><b>XSL</b> stands for EXtensible Stylesheet Language</p>
 					<ul>
-						<li>Declarative language used (together with XSLT, XPointer an other technologies) to query XML and select XML nodes</li>
-						<li>Syntax for defining fragments of XML documents</li>
+						<li>XSL is a set of standards defining processing and presentation of XML documents</li>
+						<li>XSL = XPath + XSLT + XSL-FO</li>
 						<li>Path expressions to navigate</li>
 						<li>It includes a library of standard functions</li>
 					</ul>
 				</section>
+
+<!-- SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS -->
+
+<section>
+	<p><b>XSLT</b> stands for XSL Transformations</p>
+	<ul>
+		<li>Transformed target document is usually XML, HTML, XHTML or plain text document</li>
+		<li>XSLT transformation “program” is XML document</li>
+	</ul>
+</section>
+
+<!-- SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS -->
+
+<section>
+	<p><b>XSLT</b> processor/p>
+	<img src="images/XSLT_1.png"/>
+</section>
+
+<!-- SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS -->
+
+				<section>
+					<h2 style="position: center">XSLT instructions</h2>
+				</section>
+
+
+<!-- SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS -->
+
+<section>
+	<p><code>xsl:stylesheet</code> = <code>xsl:transform</code></p>
+	<p>root element of stylesheet file that contains any number of templates</p>
+	<p>
+		<code class="xml">
+		<?xml version="1.0" ?>
+		<xsl:stylesheet
+						version="2.0"
+						xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+			<!-- transformation -->
+		</xsl:stylesheet>
+		</code>
+	</p>
+</section>
 
 <!-- SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS -->
 
